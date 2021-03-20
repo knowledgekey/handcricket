@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<windows.h>
 
  int main() 
  {
@@ -27,6 +28,6 @@
     else if(score_comp<score_human)
     printf("congratulations you won\n");
     else printf("its a tie!!\n");
-
+    printf("End");
     return 0;
 }
